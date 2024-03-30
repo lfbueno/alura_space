@@ -1,0 +1,14 @@
+1. Criar pasta
+2. Abrir pasta no VSCode
+3. Abrir terminal VSCOD - ctrl + j
+4. virtualenv venv
+5. venv\Scripts\activate
+6. pip install django
+7. pip freeze > requirements.txt
+8. django-admin startproject setup .
+9. conferir versão python -> ctrl + shift + P -> Python Select Interpreter -> escolher mesmo da venv
+10.  python manage.py runserver 
+11. Alterar linguagem e timezone no arquivo  settings.py - linhas 106 e 108
+12. configurar variáveis de ambiente -> pip install python-dotenv -> pip freeze > requirements.txt
+13. 
+
